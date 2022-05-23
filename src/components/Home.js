@@ -11,7 +11,7 @@ const Home = () => {
   const [data, setData] = useState([]);
   const [isShowForm, setIsShowForm] = useState(false);
   // console.log('user', user)
-  console.log('data', data)
+  // console.log('data', data)
 
   useEffect(() => {
     cekSession()
