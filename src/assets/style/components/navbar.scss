@@ -1,0 +1,57 @@
+@import '../core';
+
+.navbar{
+    background-color: $white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .top-nav{
+        display: block;
+    }
+
+    .app-logo{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 6px;
+        img{
+            height: 2rem;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+    }
+    .nav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0 30px;
+        text-align: center;
+
+        li{
+            display: inline;
+            padding: 0 4px;
+            a{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px){
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .nav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li{
+            display: inline;
+            margin-left: 20px;
+        }
+    }
+}

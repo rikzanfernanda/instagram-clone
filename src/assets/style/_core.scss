@@ -1,0 +1,63 @@
+// color
+$background-color: #eeeeee;
+$white: #fff;
+$black: rgb(44, 44, 44);
+$color-form-container: #e4e4e4;
+$color-btn-primary: rgb(44, 44, 44);
+$color-btn-secondary: rgb(133, 133, 133);
+
+
+html{
+    font-size: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background-color;
+    color: $black;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: $black;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: $color-btn-primary;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    background-color: $color-btn-secondary;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+    html{
+        font-size: 14px;
+    }
+    .container{
+        width: 50%;
+    }
+}

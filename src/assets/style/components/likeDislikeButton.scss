@@ -1,0 +1,19 @@
+@import '../core';
+
+.like-dislike-btn{
+    text-align: right;
+    .btn-primary{
+        @extend .btn-primary;
+        font-size: .8rem;
+        padding: 2px 4px;
+    }
+    .btn-secondary{
+        @extend .btn-secondary;
+        font-size: .8rem;
+        padding: 2px 4px;
+    }
+    span{
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+}

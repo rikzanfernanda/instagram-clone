@@ -1,0 +1,26 @@
+@import '../core';
+
+.post-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: $white;
+
+    .post-content{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+}
+.post-image{
+    width: 100%;
+}
+
+.post-username{
+    font-size: 1rem;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.post-date{
+    font-size: .8rem;
+}

@@ -1,0 +1,27 @@
+@import '../core';
+
+.form-container{
+    background-color: $color-form-container;
+    padding: {
+        top: 20px;
+        bottom: 20px;
+        left: 10px;
+        right: 10px;
+    };
+}
+.form-group{
+    padding-bottom: 10px;
+    label{
+        display: block;
+        padding-bottom: 4px;
+        color: black;
+        font-weight: bold;
+    }
+    input[type='text']{
+        width: 100%;
+        padding: 4px 2px;
+    }
+}
+.form-button{
+    text-align: right;
+}
